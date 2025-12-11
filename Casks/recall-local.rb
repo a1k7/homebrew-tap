@@ -7,7 +7,8 @@ cask "recall-local" do
   desc "Local AI file organizer and chat powered by Llama 3"
   homepage "https://github.com/a1k7/Recall-Local"
 
-  app "Recall Local.app"
+  # THIS IS THE CRITICAL FIX
+  app "SmartSortLocal.app", target: "Recall Local.app"
 
   caveats do
     requires_rosetta
