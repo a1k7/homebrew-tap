@@ -1,6 +1,6 @@
 cask "recall-local" do
   version "1.0.0"
-  sha256 "PASTE_YOUR_SHA256_HASH_HERE"
+  sha256 "449ee3589e391ce9bfc7528f345e9c85610b2dd282aca88d6f4faf8012c4b1e8  "
 
   # Update this to match your username and repo name exactly
   url "https://github.com/a1k7/Recall-Local/releases/download/v#{version}/RecallLocal.zip"
